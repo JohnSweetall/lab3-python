@@ -19,13 +19,13 @@ def print_n(s,n):
     return 
   else:
     print(s)
-    print_n(n-1)
+    print_n(s, n-1)
 
 def run():
 
-  numb = int(input("Enter an integer: "))
+  numb = int(input("Enter an int: "))
   sum1 = sum_n(numb)
-  print(f"The sum is {sum1}")
+  print(f"sum is {sum1}")
   string1 = str(input("Enter a string: "))
   print_n(string1, numb)
 
