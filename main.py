@@ -25,7 +25,7 @@ def run():
 
   numb = int(input("Enter an int: "))
   sum1 = sum_n(numb)
-  print(f"sum is {sum1}..")
+  print(f"sum is {sum1}"".")
   string1 = str(input("Enter a string: "))
   print_n(string1, numb)
 
